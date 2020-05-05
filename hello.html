@@ -11,11 +11,45 @@
           text-align: center;
 
         }
+        div {
+          font-family: Arial, sans-serif;
+          font-size: 25px;
+          font-weight: bold;
+          color: white;
+          background-color: black;
+          text-align: center;
+          border: 5px solid orange;
+
+        }
+        table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          width: 30%
+
+        }
+
+        th, td {
+          border: 1px solid black;
+          padding: 5px;
+          text-align: center;
+        }
+
+        th {
+          background-color: lightgray;
+
+        }
+
+        /*td {
+          border: 1px solid black;
+
+        }*/
 
     </style>
-  </head>
+      </head>
   <body>
-    Hello World
+    <div>
+      Hello World
+    </div>
       <h3>Unordered list:</h3>
       <ul>
         <li>One item</li>
@@ -31,28 +65,28 @@
       <h3>Adding an image</h3>
       <img src="sky.jpeg" height="30%" width="30%">
       <h4>Kawa employees table</h4>
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Surname</th>
-          <th>Order number</th>
-        </tr>
-        <tr>
-          <td>Alejandro</td>
-          <td>Avellaneda</td>
-          <td>001</td>
-        </tr>
-        <tr>
-          <td>Orlando</td>
-          <td>Rodriguez</td>
-          <td>002</td>
-        </tr>
+        <table>
           <tr>
-            <td>Alenxander</td>
-            <td>Rodriguez</td>
-            <td>003</td>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Order number</th>
           </tr>
-        </table>
+          <tr>
+            <td>Alejandro</td>
+            <td>Avellaneda</td>
+            <td>001</td>
+          </tr>
+          <tr>
+            <td>Orlando</td>
+            <td>Rodriguez</td>
+            <td>002</td>
+          </tr>
+            <tr>
+              <td>Alenxander</td>
+              <td>Rodriguez</td>
+              <td>003</td>
+            </tr>
+          </table>
         <h3>Adding a form</h3>
         <form>
           <input type="text" placeholder="Full Name" name="name">
